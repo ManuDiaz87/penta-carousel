@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>JS Carrusel</title>
+</head>
+<body>
+    
+    <section class="py-5 bg-body-tertiary">
+        <div class="container">
+            <h2 class="text-center mb-4">Reviews</h2>
+
+            <div class="carrusel">
+                <div class="carrusel__item carrusel__item--active">
+                    <h3>Super recomendado!</h3>
+                    <ul class="carrusel__list mb-4">
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                    </ul>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia optio dolorem aut facere assumenda nisi repellendus voluptatum. Quos nam molestias perspiciatis sed delectus blanditiis at. Alias deleniti libero vitae adipisci?</p>
+                    <h5 class="carrusel__clientName">- Stefan Wood</h5>
+                </div>
+
+                <div class="carrusel__item">
+                    <h3>Super recomendado 2!</h3>
+                    <ul class="carrusel__list mb-4">
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                    </ul>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia optio dolorem aut facere assumenda nisi repellendus voluptatum. Quos nam molestias perspiciatis sed delectus blanditiis at. Alias deleniti libero vitae adipisci?</p>
+                    <h5 class="carrusel__clientName">- Stefan Wood</h5>
+                </div>
+
+                <div class="carrusel__item">
+                    <h3>Super recomendado 3!</h3>
+                    <ul class="carrusel__list mb-4">
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                    </ul>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia optio dolorem aut facere assumenda nisi repellendus voluptatum. Quos nam molestias perspiciatis sed delectus blanditiis at. Alias deleniti libero vitae adipisci?</p>
+                    <h5 class="carrusel__clientName">- Stefan Wood</h5>
+                </div>
+
+                <div class="carrusel__item">
+                    <h3>Super recomendado 4!</h3>
+                    <ul class="carrusel__list mb-4">
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                    </ul>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia optio dolorem aut facere assumenda nisi repellendus voluptatum. Quos nam molestias perspiciatis sed delectus blanditiis at. Alias deleniti libero vitae adipisci?</p>
+                    <h5 class="carrusel__clientName">- Stefan Wood</h5>
+                </div>
+
+                <div class="carrusel__item">
+                    <h3>Super recomendado 5!</h3>
+                    <ul class="carrusel__list mb-4">
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                        <li><i class="carrusel__icon fa-solid fa-star"></i></li>
+                    </ul>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia optio dolorem aut facere assumenda nisi repellendus voluptatum. Quos nam molestias perspiciatis sed delectus blanditiis at. Alias deleniti libero vitae adipisci?</p>
+                    <h5 class="carrusel__clientName">- Stefan Wood</h5>
+                </div>
+                
+                <div class="carrusel__buttonContainer">
+                    <button id="prevItemBtn" class="carrusel__changeItemButton" disabled>
+                        <i class="fa-solid fa-angle-up"></i>
+                    </button>
+                    <button id="nextItemBtn" class="carrusel__changeItemButton">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    
+
+
+       <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+     <script src="./js/carruselSimple.js"></script>
+</body>
+</html>
