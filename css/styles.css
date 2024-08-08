@@ -1,5 +1,6 @@
 * {
     font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }
 
 ul {
@@ -33,7 +34,7 @@ ul {
     
     .carrusel__list {
         display: flex;
-        gap: 5px;
+        gap: 8px;
     }
 
     .carrusel__icon {
